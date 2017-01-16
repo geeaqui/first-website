@@ -69,15 +69,23 @@ main > div > section > p{
 
 /*========Aside=============*/
 aside{
+	margin-top: 100px;
 	text-align: center;
+	background-color: #4286f4
+	display:block;
 }
 
 aside > ul > li{
 	display: inline-block;
 }
 
-aside > ul > a{
+aside > ul > li > a{
+	width:100%;
 	text-decoration: none;
+	color: #fff;
+	background-color: #4286f4;
+	padding:100px 285px;
+	border:3px solid black;
 }
 /*==========================*/
 

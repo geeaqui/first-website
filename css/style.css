@@ -1,0 +1,83 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family:"Helvetica Neue";
+	width: 100%;
+}
+
+/*=======Header========*/
+header{
+	background-color:#566275;
+}
+
+header > h3{
+	font-size:36px;
+	font-weight:bold;
+	padding:20px;
+	color:#b9c1ce;
+}
+
+header > nav > ul > li{
+	display: inline-block;
+}
+
+header > nav > ul > li> a{
+	text-decoration: none;
+	color:#fff;
+}
+/*========================*/
+
+/*=============Main=========*/
+#introduction{
+	width:960px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#4e535b;
+	padding-bottom: 100px;
+}
+
+main > div > section >h1{
+	font-size:36px;
+	font-weight: bold;
+	text-align: center;
+	color:#fff;
+	padding:100px 15px;
+}
+
+main > div > section > p{
+	color:#fff;
+	padding: 100px 50px;
+}
+
+#testimonials{
+	background-color:#b3b6bc;
+}
+
+#testimonials h1{
+	padding:30px;
+	font-size:36px;
+	letter-spacing: 2px;
+}
+
+#testimonials p{
+	padding:50px 100px 20px 100px;
+	font-style:italic;
+}
+/*==========================*/
+
+/*========Aside=============*/
+aside{
+	text-align: center;
+}
+
+aside > ul > li{
+	display: inline-block;
+}
+
+aside > ul > a{
+	text-decoration: none;
+}
+/*==========================*/
+
